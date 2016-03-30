@@ -72,3 +72,9 @@ if [[ ! -d "$TMPDIR" ]]; then
 fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
+
+#
+# nvm
+#
+
+NVM_DIR="${HOME}/.nvm/"
