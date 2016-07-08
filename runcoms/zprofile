@@ -78,3 +78,9 @@ TMPPREFIX="${TMPDIR%/}/zsh"
 #
 
 NVM_DIR="${HOME}/.nvm/"
+
+#
+# Custom Homebrew Cask options
+#
+
+export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
