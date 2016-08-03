@@ -74,13 +74,8 @@ fi
 TMPPREFIX="${TMPDIR%/}/zsh"
 
 #
-# nvm
+# Nix Package Manager
 #
 
-NVM_DIR="${HOME}/.nvm/"
+. ~/.nix-profile/etc/profile.d/nix.sh
 
-#
-# Custom Homebrew Cask options
-#
-
-export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
